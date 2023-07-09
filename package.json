@@ -1,0 +1,14 @@
+{
+  "name": "revistagtr",
+  "version": "1.0.0",
+  "description": "Revista Gtr ",
+  "main": "validaciones.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.0.0"
+  }
+}

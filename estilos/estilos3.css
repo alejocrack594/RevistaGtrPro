@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* Estilos para el encabezado */
+header {
+  position: relative;
+}
+
+#img11 {
+  width: 100%;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #3d5ac6; /* Cambia el color de fondo de la sublista */
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000000; /* Cambia el color del texto de los elementos de la lista */
+}
+
+nav ul li ul li {
+  display: block;
+}
+
+nav ul li ul li a {
+  color: #000000; /* Cambia el color del texto de los elementos de la sublista */
+}
+
+/* Estilos para el contenido principal */
+#contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* Ajusta el ancho máximo deseado */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+aside {
+  flex: 1;
+  padding: 20px;
+}
+
+#siguenos img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #dddddd;
+  background-color: #e2f0e2; /* Cambia el color de fondo de las celdas de la tabla */
+}
+
+table th {
+  background-color: #b0dab0; /* Cambia el color de fondo del encabezado de la tabla */
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #d8e8d8; /* Cambia el color de fondo de la fila al pasar el cursor sobre ella */
+}
+
+/* Estilos para el formulario */
+#escribenos {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+input[type=submit] {
+  background-color: #55a84f;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4c9747;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#subir {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #55a84f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=estilos3.css.map */

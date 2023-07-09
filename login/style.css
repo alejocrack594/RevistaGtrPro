@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #a5b5c5;
+}
+
+#loginContainer, #registerContainer {
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+#loginContainer:hover, #registerContainer:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+#loginContainer h2, #registerContainer h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+#loginContainer label, #registerContainer label {
+  display: block;
+  margin-bottom: 5px;
+}
+#loginContainer input[type=text], #loginContainer input[type=password], #loginContainer input[type=email], #registerContainer input[type=text], #registerContainer input[type=password], #registerContainer input[type=email] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  transition: border 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+#loginContainer input[type=text]:focus, #loginContainer input[type=password]:focus, #loginContainer input[type=email]:focus, #registerContainer input[type=text]:focus, #registerContainer input[type=password]:focus, #registerContainer input[type=email]:focus {
+  border-color: #98FB98;
+}
+#loginContainer input[type=submit], #loginContainer #registerButton, #registerContainer input[type=submit], #registerContainer #registerButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #98FB98;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 10px;
+}
+#loginContainer input[type=submit]:hover, #loginContainer #registerButton:hover, #registerContainer input[type=submit]:hover, #registerContainer #registerButton:hover {
+  background-color: #76EE00;
+}/*# sourceMappingURL=style.css.map */
