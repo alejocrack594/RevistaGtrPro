@@ -44,5 +44,5 @@ signOutButton.addEventListener("click", () => {
         console.error(`Error al cerrar sesión: ${error.message}`);
       });
   });
-  history.replaceState(null, "", "/index.html");
+  history.replaceState(null, "", "/RevistaGtrPro");
   
