@@ -38,7 +38,7 @@ signOutButton.addEventListener("click", () => {
     signOut(auth)
       .then(() => {
         // Redirigir al usuario a la página de inicio después de cerrar sesión
-        window.location.href = "../index.html";
+        window.location.href = "/RevistaGtrPro";
       })
       .catch((error) => {
         console.error(`Error al cerrar sesión: ${error.message}`);
